@@ -1,0 +1,129 @@
+html {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+ul {
+    margin: 0;
+    margin-top: 15px;
+    /* Обнуляем значение отступов */
+    /* Значение полей */
+    text-align: right;
+}
+
+li {
+    display: inline;
+    /* Отображать как строчный элемент */
+    margin-right: 5px;
+    /* Отступ слева */
+    padding: 2px;
+    /* Поля вокруг текста */
+}
+
+footer {
+    background-color: #F6F6F6;
+}
+
+.container {
+    max-width: 960px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.whileOnPage {
+    border-bottom: 5px solid #9CC038;
+    padding-bottom: 13px;
+    /* Зеленая полоса снизу */
+    font-weight: bold;
+}
+
+.Hypnosis {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+
+#triangle-bottomright {
+    display: inline;
+    border-bottom: 30px solid #9CC038;
+    border-left: 30px solid transparent;
+    float: left;
+}
+
+.backg1 {
+    float: inline-start;
+    display: block;
+    margin-top: 18px;
+    padding: 0;
+    width: 1510px;
+    height: 480px;
+    background: url(OLD_1.jpg) no-repeat;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+}
+
+.backg2 {
+    padding-left: 16px;
+    padding-top: 30px;
+    width: 1510px;
+    height: 200px;
+    background-color: #f9f9f9;
+    max-width: 960px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.box {
+    box-sizing: content-box;
+    vertical-align: middle;
+    display: inline-flex;
+    margin-right: 1% auto;
+    margin-left: 1%;
+    padding-right: 10px;
+    width: 22%;
+    height: 80%;
+    background: #9CC038;
+    /* Резервное решение */
+    background: linear-gradient(315deg, transparent 1.5em, #9CC038 0)
+}
+
+.box:first-child {
+    margin-left: 0;
+}
+
+.box:last-child {
+    padding-left: 0px;
+}
+
+p {
+    font-size: 22px;
+    color: #f9f9f9;
+    text-align: left;
+}
+
+.backg3 {
+    padding-left: 16px;
+    padding-top: 30px;
+    width: 1510px;
+    height: 240px;
+    background-color: white;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#familyPic {
+    max-height: 240px;
+}
+
+h2 {
+    margin: 0px;
+    padding-bottom: 14px;
+    float: right;
+}
